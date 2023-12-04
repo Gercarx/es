@@ -1,0 +1,7 @@
+1)installo 4 switch,ai quali collego:1pc,1nas,1firewall e due server(smtp,http)
+2)nella zona DMZ(zona demilitarizzata),colloco i due server smtp e http
+3)per la zona DMZ uso come protezione un WAF (web application firewall), il quale svolge la funzione di leggere il contenuto del pacchetto e quindi
+di bloccarlo o farlo proseguire nella rete
+4)colloco inoltre un nas(dispositivo di archiviazione) collegato a uno switch che a sua volta si collega al  router gateway
+5)per terminare la rete collego un firewall perimetrale con filtraggio dinamico ovvero che  consente l'accesso dall'interno verso l'esterno e ha
+una tabella acl(access control list) volatile(dopo x minuti si resetta).
