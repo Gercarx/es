@@ -1,0 +1,9 @@
+1)il programma una volta avviato ti chiede di inserire o la lettera A oppure la B, la lettera A indica al programma di procedere 
+mentre la lettera B indica di uscire dal gioco, in caso procediamo e quindi digitiamo la lettera A, il programma ti chiede di inserire delle domande
+e delle risposte.Nel primo if se la risposta 1 e' uguale ad A il punteggio verra' incrementato,mentre nel secondo if se la risposta 2 e' uguale a B anche qui 
+il punteggio verra' incrementato.
+Una volta finito il programma ti dira' sia il nome che il punteggio.
+2) quando viene avviato il programma ti chiede di inserire la lettera A oppure la B,se inseriamo o la lettera a (piccola),oppure mettiamo un numero il programma
+si arresta questo perche' le lettere da usare vengono decise dentro l'if nel codice sorgente.
+3) quando un utente prova a utilizzare piu spazio del dovuto abbiamo un caso di BUFFER OVERFLOW , ovveroil programma puo arrestarsi o dare alcuni errori,
+ci puo essere anche un overflow volontario in questo caso si possono iniettare pezzi di codice manevolo fino a renderlo completo e quindi dare origini a un MALWARE 
