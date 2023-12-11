@@ -49,7 +49,7 @@ void dividi() {
     scanf("%d", &b);
 
     if (b != 0) {  
-        int divisione = a % b;  
+        int divisione = a / b;  
 
         printf("La divisione tra %d e %d e': %d", a, b, divisione);  
     } else {
