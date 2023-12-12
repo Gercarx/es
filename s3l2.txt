@@ -1,0 +1,3 @@
+Burp suite e' un tool in grado di intercettare i pacchetti.
+In questo caso caso,come possiamo vedere abbiamo intercettato il pacchetto contenente l'username e la password.
+POST e' un protocollo che ci permette di inserire diversi paramentri in questo caso username e password 
